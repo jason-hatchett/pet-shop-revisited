@@ -6,6 +6,7 @@ require 'pry-byebug'
 # require 'rack-flash'
 
 require_relative 'lib/petshop.rb'
+require_relative 'config/environments.rb'
 
 class PetShop::Server < Sinatra::Application
 
